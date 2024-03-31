@@ -1,0 +1,178 @@
+.wrapper {
+  width: 400px;
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 40px 10px;
+  box-shadow: var(--containerBoxShadow);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-top: -60px;
+  border-radius: 50px;
+  box-shadow: var(--logoBoxShadow);
+}
+
+.title {
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  margin-bottom: 35px;
+  color: var(--primary);
+}
+
+.field {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  position: relative;
+}
+
+.field input {
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: var(--text-dark);
+  background: var(--bg);
+  border-radius: 10px;
+  box-shadow: var(--inputBoxShadow);
+}
+
+.field:nth-child(2) {
+  margin-top: 20px;
+}
+
+.field:nth-child(3) {
+  margin-top: 20px;
+}
+
+.field span {
+  position: absolute;
+  width: 50px;
+  line-height: 50px;
+  color: var(--text-dark);
+  padding-top: 4px;
+}
+
+.button {
+  margin: 25px 0 0 0;
+  width: 100%;
+  height: 50px;
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--bg);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: var(--containerBoxShadow);
+}
+.button:focus {
+  color: var(--primary);
+  box-shadow: var(--inputBoxShadow);
+}
+.footer {
+  margin-top: 20px;
+  font-size: 13px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create__account {
+  color: var(--primary);
+  cursor: pointer;
+  font-weight: 500;
+  border-bottom: 1px solid var(--primary);
+  text-transform: uppercase;
+}
+.tagsInput {
+  display: inline-block;
+  position: relative;
+  border: 1px solid var(--bg);
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: var(--inputBoxShadow);
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tagsInput ul {
+  padding: 0;
+  margin: 0;
+}
+
+.tagsInput li {
+  display: inline-block;
+  background-color: var(--bg);
+  color: var(--text-dark);
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.tagsInput li:nth-child(1) {
+  background-color: var(--tag-1);
+  color: var(--tag-1-text);
+}
+
+.tagsInput li:nth-child(2) {
+  background-color: var(--tag-2);
+  color: var(--tag-2-text);
+}
+
+.tagsInput li:nth-child(3) {
+  background-color: var(--tag-3);
+  color: var(--tag-3-text);
+}
+
+.tagsInput li:nth-child(4) {
+  background-color: var(--tag-4);
+  color: var(--tag-4-text);
+}
+.tagsInput li:nth-child(5) {
+  background-color: var(--tag-5);
+  color: var(--tag-5-text);
+}
+
+.tagsInput li:nth-child(6) {
+  background-color: var(--tag-6);
+  color: var(--tag-6-text);
+}
+.tagsInput input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+  background: var(--bg);
+  color: var(--text-dark);
+}
+
+.tagsInput input[type="text"]:focus {
+  outline: none;
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  color: var(--primary);
+  cursor: pointer;
+  margin-left: 5px;
+}
