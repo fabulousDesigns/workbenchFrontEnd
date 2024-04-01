@@ -1,0 +1,23 @@
+/* Editor.css */
+
+/* Toolbar styles */
+.w-md-editor-toolbar {
+  background-color: #f0f0f0; /* Change the background color of the toolbar */
+  border-radius: 4px; /* Add border radius to the toolbar */
+  padding: 8px; /* Add some padding */
+}
+
+/* Individual toolbar button styles */
+.w-md-editor-toolbar li.tool {
+  margin-right: 8px; /* Add some spacing between toolbar buttons */
+}
+
+.w-md-editor-toolbar li.tool button {
+  color: #333; /* Change the color of the toolbar buttons */
+  font-weight: bold; /* Make the toolbar buttons bold */
+  transition: background-color 0.3s ease; /* Add a transition effect for hover state */
+}
+
+.w-md-editor-toolbar li.tool button:hover {
+  background-color: #e0e0e0; /* Change the background color on hover */
+}

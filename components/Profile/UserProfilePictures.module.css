@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profilePicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: inherit;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.firstPicture {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.secondPicture {
+  position: relative;
+  right: 8px;
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.thirdPicture {
+  position: relative;
+  right: 16px;
+  box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.fourthPicture {
+  position: relative;
+  right: 24px;
+  box-shadow: -6px 6px 8px rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
